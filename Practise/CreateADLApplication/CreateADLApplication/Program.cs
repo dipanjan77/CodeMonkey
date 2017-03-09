@@ -26,7 +26,7 @@ namespace SdkSample
             _adlsAccountName = "dipanbappnexus"; // TODO: Replace this value with the name of your existing Data Lake Store account.
             _resourceGroupName = "dipanbappnexus"; // TODO: Replace this value with the name of the resource group containing your Data Lake Store account.
             _location = "East US 2";
-            _subId = "66935119-b9ca-429d-9cb2-10d7e8e377cf";
+            _subId = "66935119xxxxxxxxxxxx2-10d7e8e377cf";
 
             string localFolderPath = @"C:\WORKAREA\Enlist\GitHub\CodeMonkey\Practise\CreateADLApplication\CreateADLApplication\Data\"; // TODO: Make sure this exists and can be overwritten.
             string localFilePath = localFolderPath + "file.txt"; // TODO: Make sure this exists and can be overwritten.
@@ -38,9 +38,9 @@ namespace SdkSample
                 // Service principal / appplication authentication with client secret / key
                 // Use the client ID of an existing AAD "Web App" application.
                 SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
-                var domain = "72f988bf-86f1-41af-91ab-2d7cd011db47";
-                var webApp_clientId = "76c6a67b-3ee5-4fe7-b7f1-08b81c66c654";
-                var clientSecret = "oXW9O+R6K4LL8Pzxur4dK5aif8dC8yhWCg1mYafdGfE=";
+                var domain = "72f988bf-86f1-xxxxxxxxxx-2d7cd011db47"; //This is the tenant ID
+                var webApp_clientId = "76c6a67b-xxxxxxxxx-08b81c66c654"; //This is the Application ID
+                var clientSecret = "oXW9O+R6Kxxxxxxxxxxxxxx8dC8yhWCg1mYafdGfE="; //This is the secret key
                 var clientCredential = new ClientCredential(webApp_clientId, clientSecret);
                 var creds = ApplicationTokenProvider.LoginSilentAsync(domain, clientCredential).Result;
 
