@@ -1,5 +1,5 @@
 {
     "subscription_id": "e91107f8-bd8c-4517-8c8b-14879a7dbec4",
-    "resource_group": "dipanb_aml_sdk",
-    "workspace_name": "dipanb-sdk"
+    "resource_group": "dipanb_aml",
+    "workspace_name": "dipanb_ws"
 }
