@@ -1,0 +1,4 @@
+storage_account_name: "datasets4ml"
+storage_account_containername: "ps-janani-ravi"
+storage_account_accesskey: "1fuQZXeZ2GOr+3Dg0VDYy40gzoWWni4SepuX7I3X5feZFaWaJ/hKLlfhrREJ4odVwWQJf+Z9gAuJsyDX+aS4Sw=="
+file_location: "wasbs://ps-janani-ravi@datasets4ml.blob.core.windows.net/london_crime_by_lsoa.csv"
