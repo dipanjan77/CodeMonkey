@@ -1,5 +1,0 @@
-container: flight-data
-storage_account: datasets4ml
-storage_key: fs.azure.account.key.datasets4ml.blob.core.windows.net
-secret: 1fuQZXeZ2GOr+3Dg0VDYy40gzoWWni4SepuX7I3X5feZFaWaJ/hKLlfhrREJ4odVwWQJf+Z9gAuJsyDX+aS4Sw==
-
